@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fa-solid.fa-bars {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .fa-solid.fa-bars {
+    display: none;
+  }
+}
